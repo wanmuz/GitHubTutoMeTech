@@ -28,6 +28,7 @@
     NSLog(@"Hello World");
     NSLog(@"Selamat Pagi Dunia");
       NSLog(@"Selamat Pagi Dunia");
+    NSLog(@"Test2");
 }
 
 @end
