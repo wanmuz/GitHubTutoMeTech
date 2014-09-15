@@ -14,6 +14,7 @@
 		FFB0BCD719C6910600992304 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB0BCD619C6910600992304 /* Images.xcassets */; };
 		FFB0BCDA19C6910600992304 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFB0BCD819C6910600992304 /* LaunchScreen.xib */; };
 		FFB0BCE619C6910600992304 /* GitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0BCE519C6910600992304 /* GitExampleTests.m */; };
+		FFB0BCF119C69ADD00992304 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0BCF019C69ADD00992304 /* RegistrationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FFB0BCDF19C6910600992304 /* GitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB0BCE419C6910600992304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFB0BCE519C6910600992304 /* GitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExampleTests.m; sourceTree = "<group>"; };
+		FFB0BCEF19C69ADD00992304 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		FFB0BCF019C69ADD00992304 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				FFB0BCCE19C6910500992304 /* AppDelegate.m */,
 				FFB0BCD019C6910600992304 /* ViewController.h */,
 				FFB0BCD119C6910600992304 /* ViewController.m */,
+				FFB0BCEF19C69ADD00992304 /* RegistrationViewController.h */,
+				FFB0BCF019C69ADD00992304 /* RegistrationViewController.m */,
 				FFB0BCD319C6910600992304 /* Main.storyboard */,
 				FFB0BCD619C6910600992304 /* Images.xcassets */,
 				FFB0BCD819C6910600992304 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB0BCD219C6910600992304 /* ViewController.m in Sources */,
+				FFB0BCF119C69ADD00992304 /* RegistrationViewController.m in Sources */,
 				FFB0BCCF19C6910500992304 /* AppDelegate.m in Sources */,
 				FFB0BCCC19C6910500992304 /* main.m in Sources */,
 			);
